@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" type="image/ico" href="assets/images/book.png" />
+    <title>My Reading List</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/027d8fef7d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="form-background hide">
+        <form class="new-book-form">
+            <h2>Add Another <span>Book</span> To Your List</h2>
+            <label for="title">Title of Book: </label>
+            <input type="text" id="title" placeholder="Book's Title">
+            <label for="author">Author of Book: </label>
+            <input type="text" id="author" placeholder="Book's Author">
+            <label for="pages">Number of Pages: </label>
+            <input type="number" id="pages" min="1" max="7312" placeholder="1">
+            <p id="warning"></p>
+            <div>
+                <button class="submit-button">Submit</button>
+                <button class="cancel-button" type="reset" value="Reset">Cancel</button>
+            </div>
+
+        </form>
+    </div>
+
+    <h1>My <span>Reading</span> List</h1>
+    <div class="container">
+        <span class="books-header">
+
+            <p>Title: </i></p>
+            <p>Author: </p>
+            <p>Page Count: </p>
+            <p>Read It?: </p>
+            <button class="add-new-book"><i class="fas fa-plus-square"></i> NEW BOOK</button>
+        </span>
+        <div class="books-container">
+
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
