@@ -1,6 +1,6 @@
 # My-Reading-List
 Reading list created with javascript for The Odin Project using javascript, css, and html
-
+<br>
 This project was a good way to learn how to: <br>
 -work with objects\
 -accesses and use localStorage
